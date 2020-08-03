@@ -28,4 +28,6 @@ python app.py
 - [Python 3.8.3](https://www.python.org/downloads/release/python-383/)
 ### Python Modules
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/)
+    - Allows a web page to be scraped (parses its HTML or XML)
 - [requests](https://pypi.org/project/requests/)
+    - Allows sending HTTP requests
