@@ -5,22 +5,23 @@ from parsers.quote import QuoteParser
 
 from typing import List
 
+
 class QuotesPage:
     """A class that retreives a web page from a URL, and parses it for quotes"""
 
-    def __init__(self, page: str):
+    def __init__(self, page: bytes):
         """
         Parameters
         ----------
-        page : str
+        soup : bs4.BeautifulSoup
             The url of the web page.
         """
         self.soup = BeautifulSoup(page, "html.parser")
-    
+
     @property
     def quotes(self) -> List[QuoteParser]:
         """Returns the web page's quotes.
-        
+
         Returns
         -------
         list
@@ -29,4 +30,3 @@ class QuotesPage:
         locator = QuotesPageLocators.QUOTE
         quote_tags = self.soup.select(locator)
         return [QuoteParser(e) for e in quote_tags]
-    
