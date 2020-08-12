@@ -18,7 +18,7 @@ The purpose of this application was to become more familiar with web scraping.
 - Scrapes the web page http://quotes.toscrape.com
 
 ## Screenshots
-<img src="./screenshots/main.PNG" alt="A screenshot of the application being run in the console. It shows the div tags of class quote of a web page.">
+<img src="./images/screenshots/main.PNG" alt="A screenshot of the application being run in the console. It shows the div tags of class quote of a web page.">
 
 ## Launch
 To run, in the console enter:
