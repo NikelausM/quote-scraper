@@ -1,10 +1,12 @@
+<p align="center"><img src="./images/logos/web-scraping.jpg" alt="Web scraping logo." ><p>
+
 # Quote Scraper
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Setup](#setup)
+- [Launch](#launch)
 - [Technologies](#technologies)
 
 ## Introduction
@@ -18,7 +20,7 @@ The purpose of this application was to become more familiar with web scraping.
 ## Screenshots
 <img src="./screenshots/main.PNG" alt="A screenshot of the application being run in the console. It shows the div tags of class quote of a web page.">
 
-## Setup
+## Launch
 To run, in the console enter:
 ```
 python app.py
